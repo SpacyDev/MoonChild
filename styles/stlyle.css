@@ -1,0 +1,41 @@
+body{
+    background-color: #100a22;
+    background-image: url(/media/back-image.jpg);
+    padding: 0;
+    margin: 0;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-photo{
+    display: flex;
+    position: relative;
+}
+.quote-text{
+    display: flex;
+    width: 80%;
+    text-align: left;
+    font-family: 'Petemoss', cursive;
+    color: #04042e;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+.quote-text b{
+    position: relative;
+    margin-right: 0;
+}
+img{
+    width: 100%;
+}
+
+.card{
+    margin: 1rem 0;
+    background-color: #0a2733;
+    font-family: 'Titillium Web', sans-serif;
+    color:#fff;
+    width: 20rem;
+}
